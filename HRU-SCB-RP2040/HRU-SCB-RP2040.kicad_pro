@@ -570,10 +570,6 @@
     [
       "8865bb96-b424-4214-9ee7-9e2e6881a969",
       "PowerCircuit"
-    ],
-    [
-      "a970cf10-9696-4473-8694-7d810e8f315b",
-      "ServoSerial"
     ]
   ],
   "text_variables": {}

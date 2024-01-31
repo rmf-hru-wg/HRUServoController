@@ -8,31 +8,35 @@
     (autoroute on)
     (postroute on)
     (vias on)
-    (via_costs 50)
-    (plane_via_costs 5)
+    (via_costs 10)
+    (plane_via_costs 50)
     (start_ripup_costs 100)
-    (start_pass_no 133)
+    (start_pass_no 6558)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.3)
+      (against_preferred_direction_trace_costs 1.4)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 1.4)
     )
   )
   (rule
     (width 127.0)
     (clearance 127.2)
     (clearance 63.5 (type smd_to_turn_gap))
-    (clearance 31.8 (type smd))
+    (clearance 127.2 (type smd))
     (clearance 127.2 (type "kicad_default"))
     (clearance 127.2 (type "Power_1"))
     (clearance 127.2 (type "Power_2"))
+    (clearance 127.2 (type kicad))
+    (clearance 127.2 (type Power))
+    (clearance 127.2 (type 1))
+    (clearance 127.2 (type 2))
   )
   (padstack "Via[0-1]_508:254_um"
     (shape
@@ -53,28 +57,28 @@
     (attach off)
   )
   (via 
-    "Via[0-1]_508:254_um" "Via[0-1]_508:254_um" default
+    "Via[0-1]_508:254_um" "Via[0-1]_508:254_um" default attach
   )
   (via 
-    "Via[0-1]_762:254_um" "Via[0-1]_762:254_um" default
+    "Via[0-1]_762:254_um" "Via[0-1]_762:254_um" default attach
   )
   (via 
-    "Via[0-1]_508:254_um-kicad_default" "Via[0-1]_508:254_um" "kicad_default"
+    "Via[0-1]_508:254_um-kicad_default" "Via[0-1]_508:254_um" "kicad_default" attach
   )
   (via 
-    "Via[0-1]_762:254_um-kicad_default" "Via[0-1]_762:254_um" "kicad_default"
+    "Via[0-1]_762:254_um-kicad_default" "Via[0-1]_762:254_um" "kicad_default" attach
   )
   (via 
-    "Via[0-1]_508:254_um-Power_1" "Via[0-1]_508:254_um" "Power_1"
+    "Via[0-1]_508:254_um-Power_1" "Via[0-1]_508:254_um" "Power_1" attach
   )
   (via 
-    "Via[0-1]_762:254_um-Power_1" "Via[0-1]_762:254_um" "Power_1"
+    "Via[0-1]_762:254_um-Power_1" "Via[0-1]_762:254_um" "Power_1" attach
   )
   (via 
-    "Via[0-1]_508:254_um-Power_2" "Via[0-1]_508:254_um" "Power_2"
+    "Via[0-1]_508:254_um-Power_2" "Via[0-1]_508:254_um" "Power_2" attach
   )
   (via 
-    "Via[0-1]_762:254_um-Power_2" "Via[0-1]_762:254_um" "Power_2"
+    "Via[0-1]_762:254_um-Power_2" "Via[0-1]_762:254_um" "Power_2" attach
   )
   (via_rule
     default "Via[0-1]_508:254_um"
@@ -99,16 +103,11 @@
     )
   )
   (class "kicad_default"
-    /UART0.TX /UART0.RX /SPI.MISO /SPI.CLK "unconnected-(U1-RUN-Pad30)" /ServoPort/SIG.1 /ServoPort/SIG.2 /SPI.CSn
-    /SPI.MOSI /I2C1.SDA /I2C1.SCL /ServoPort/SIG.3 /ServoPort/SIG.4 /ServoPort/SIG.5 /ServoPort/SIG.6 /ServoPort/SIG.7
-    /ServoPort/SIG.8 /ServoPort/SIG.9 /ServoPort/SIG.10 /ServoPort/SIG.11 /ServoPort/SIG.12 /ServoPort/SIG.13 /ServoPort/SIG.14 /ServoPort/SIG.15
-    /ServoPort/SIG.16 /ServoPort/SIG.17 /ServoPort/SIG.18 /ServoPort/SIG.19 /ServoPort/SIG.20 /ServoPort/SIG.21 /ServoPort/SIG.22 /ServoPort/SIG.23
-    /ServoPort/SIG.24 /SPI.CS.SD "Net-(Q1-S)" "Net-(Q2-S)" "Net-(Q3-D)" "Net-(Q4-D)" /PIO.0 /I2C0.SDA
-    /I2C0.SCL /PIO.1 /PIO.2 /PIO.3 /PIO.4 /PIO.5 /SERVO.SERIAL0.DE /SERVO.SERIAL1.DE
-    /SERVO.SERIAL0.EN /SERVO.SERIAL1.EN "unconnected-(U1-ADC_VREF-Pad35)" "unconnected-(U1-3V3_EN-Pad37)" "unconnected-(RN10D-R4.1-Pad4)" "unconnected-(RN10D-R4.2-Pad5)" "unconnected-(U2-LED12-Pad19)" "unconnected-(U2-LED13-Pad20)"
-    "unconnected-(U2-LED14-Pad21)" "unconnected-(U2-LED15-Pad22)" "unconnected-(U3-LED12-Pad19)" "unconnected-(U3-LED13-Pad20)" "unconnected-(U3-LED14-Pad21)" "unconnected-(U3-LED15-Pad22)" "unconnected-(RN11D-R4.1-Pad4)" "unconnected-(RN11D-R4.2-Pad5)"
-    /UART1.TX /UART1.RX "unconnected-(J30-DAT2-Pad1)" "unconnected-(J30-DAT1-Pad8)" /ServoPort/SERVO.SERIAL0 /ServoPort/SERVO.SERIAL1 "unconnected-(U1-VBUS-Pad40)" "unconnected-(U1-GPIO28_ADC2-Pad34)"
-    "unconnected-(U1-GPIO27_ADC1-Pad32)" "unconnected-(U1-GPIO26_ADC0-Pad31)" "unconnected-(J30-DET_B-Pad9)" "unconnected-(J30-DET_A-Pad10)" "Net-(RN8C-R3.2)" "Net-(RN9C-R3.2)"
+    /SERVO.SERIAL1.RX "Net-(Q1-D)" /SPI.MISO /SPI.CLK "unconnected-(U1-RUN-Pad30)" /SERVO.SERIAL0.RX /SPI.CSn /SPI.MOSI
+    /I2C1.SDA /I2C1.SCL /SERVO.SERIAL0.TX /SERVO.SERIAL1.TX "unconnected-(U1-GPIO10-Pad14)" "unconnected-(U1-GPIO11-Pad15)" "unconnected-(U1-GPIO12-Pad16)" "unconnected-(U1-GPIO13-Pad17)"
+    "unconnected-(U1-GPIO14-Pad19)" "unconnected-(U1-GPIO15-Pad20)" "unconnected-(U1-GPIO20-Pad26)" "unconnected-(U1-GPIO21-Pad27)" /SPI.CS.SD /I2C0.SDA /I2C0.SCL /SERVO.SERIAL0.DE
+    /SERVO.SERIAL1.DE "unconnected-(U1-ADC_VREF-Pad35)" "unconnected-(U1-3V3_EN-Pad37)" /ServoPort/SERVO.SERIAL0 /ServoPort/SERVO.SERIAL1 "unconnected-(U1-VBUS-Pad40)" "unconnected-(U1-GPIO28_ADC2-Pad34)" "unconnected-(U1-GPIO27_ADC1-Pad32)"
+    "unconnected-(U1-GPIO26_ADC0-Pad31)" /ServoPort/SERVO.NULL "unconnected-(J26-DAT2-Pad1)" "unconnected-(J26-DAT1-Pad8)" "unconnected-(J26-DET_B-Pad9)" "unconnected-(J26-DET_A-Pad10)" "Net-(Q2-D)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
@@ -130,7 +129,7 @@
     )
   )
   (class "Power_2"
-    GND +3V3 +5V
+    +3V3 GND +5V
     (clearance_class "Power_2")
     (via_rule "Power_2")
     (rule

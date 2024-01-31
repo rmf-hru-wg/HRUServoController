@@ -696,7 +696,7 @@
   (symbol (lib_id "power:GNDPWR") (at 50.8 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0093b9a4-fbfa-401b-8193-28a4c3a4790e)
-    (property "Reference" "#PWR026" (at 50.8 73.66 0)
+    (property "Reference" "#PWR022" (at 50.8 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 50.673 72.39 0)
@@ -712,7 +712,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -721,7 +721,7 @@
   (symbol (lib_id "power:+5V") (at 88.9 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 126f46c2-c3d1-4256-a5e9-b2007a1e4d79)
-    (property "Reference" "#PWR027" (at 88.9 52.07 0)
+    (property "Reference" "#PWR023" (at 88.9 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 88.9 43.18 0)
@@ -737,7 +737,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -746,7 +746,7 @@
   (symbol (lib_id "power:VCC") (at 50.8 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f4b4c90-f69c-4c87-9abd-bda8a7eb36b3)
-    (property "Reference" "#PWR025" (at 50.8 52.07 0)
+    (property "Reference" "#PWR021" (at 50.8 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 50.8 43.18 0)
@@ -762,7 +762,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -771,7 +771,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 134.62 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 309b51c4-f6fc-44b5-96c9-d5e7e88b0984)
-    (property "Reference" "J31" (at 135.89 58.42 0)
+    (property "Reference" "J25" (at 135.89 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 135.89 55.88 0)
@@ -788,7 +788,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "J31") (unit 1)
+          (reference "J25") (unit 1)
         )
       )
     )
@@ -849,7 +849,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 139.7 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7097be3b-092b-4723-9340-637cbcccf639)
-    (property "Reference" "#FLG04" (at 139.7 67.945 0)
+    (property "Reference" "#FLG02" (at 139.7 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 139.7 71.12 0)
@@ -865,7 +865,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -958,7 +958,7 @@
   (symbol (lib_id "power:GNDPWR") (at 127 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b02d48-7b29-4871-8e0f-ea6c1604b1b3)
-    (property "Reference" "#PWR030" (at 127 71.12 0)
+    (property "Reference" "#PWR026" (at 127 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 126.873 69.85 0)
@@ -974,7 +974,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -983,7 +983,7 @@
   (symbol (lib_id "Device:C_Small") (at 88.9 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e57d030b-6fb8-4fe9-9def-b72b4759c1b1)
-    (property "Reference" "C?" (at 91.44 57.1563 0)
+    (property "Reference" "C2" (at 91.44 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 91.44 59.6963 0)
@@ -1002,9 +1002,6 @@
     (pin "2" (uuid 1c6c3f18-79c2-43eb-af4d-f75399057dea))
     (instances
       (project "HRU-SCB-RP2040"
-        (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/e77e8245-6b3f-4da7-90e6-d027ac806a87"
-          (reference "C?") (unit 1)
-        )
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
           (reference "C2") (unit 1)
         )
@@ -1015,7 +1012,7 @@
   (symbol (lib_id "power:GND") (at 88.9 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f31d2ea6-b8c3-4291-847a-6e9619d07a2e)
-    (property "Reference" "#PWR028" (at 88.9 74.93 0)
+    (property "Reference" "#PWR024" (at 88.9 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 73.66 0)
@@ -1031,7 +1028,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1040,7 +1037,7 @@
   (symbol (lib_id "power:VCC") (at 127 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5060857-41c2-460a-8794-d9179d9f94f7)
-    (property "Reference" "#PWR029" (at 127 52.07 0)
+    (property "Reference" "#PWR025" (at 127 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 127 43.18 0)
@@ -1056,7 +1053,7 @@
     (instances
       (project "HRU-SCB-RP2040"
         (path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
