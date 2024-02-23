@@ -1,2 +1,2 @@
-UEC RMF HRU Servo Controller Board 01
+UEC RMF HRU Servo Controller Board RP2040
 ===
