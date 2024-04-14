@@ -1,5 +1,5 @@
 
-(rules PCB HRU-SCB-RP2040
+(rules PCB HRU-SCB-RP2040.dsn
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 10)
     (plane_via_costs 50)
     (start_ripup_costs 100)
-    (start_pass_no 6558)
+    (start_pass_no 6879)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -93,6 +93,7 @@
     "Power_2" "Via[0-1]_508:254_um-Power_2"
   )
   (class default
+    "unconnected-(U1-GPIO17-Pad22)" "unconnected-(U1-GPIO19-Pad25)" "unconnected-(U1-GPIO18-Pad24)" "unconnected-(U1-GPIO16-Pad21)" "unconnected-(U1-GPIO6-Pad9)" "unconnected-(U1-GPIO7-Pad10)" "unconnected-(U1-GPIO22-Pad29)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -103,11 +104,10 @@
     )
   )
   (class "kicad_default"
-    /SERVO.SERIAL1.RX "Net-(Q1-D)" /SPI.MISO /SPI.CLK "unconnected-(U1-RUN-Pad30)" /SERVO.SERIAL0.RX /SPI.CSn /SPI.MOSI
-    /I2C1.SDA /I2C1.SCL /SERVO.SERIAL0.TX /SERVO.SERIAL1.TX "unconnected-(U1-GPIO10-Pad14)" "unconnected-(U1-GPIO11-Pad15)" "unconnected-(U1-GPIO12-Pad16)" "unconnected-(U1-GPIO13-Pad17)"
-    "unconnected-(U1-GPIO14-Pad19)" "unconnected-(U1-GPIO15-Pad20)" "unconnected-(U1-GPIO20-Pad26)" "unconnected-(U1-GPIO21-Pad27)" /SPI.CS.SD /I2C0.SDA /I2C0.SCL /SERVO.SERIAL0.DE
-    /SERVO.SERIAL1.DE "unconnected-(U1-ADC_VREF-Pad35)" "unconnected-(U1-3V3_EN-Pad37)" /ServoPort/SERVO.SERIAL0 /ServoPort/SERVO.SERIAL1 "unconnected-(U1-VBUS-Pad40)" "unconnected-(U1-GPIO28_ADC2-Pad34)" "unconnected-(U1-GPIO27_ADC1-Pad32)"
-    "unconnected-(U1-GPIO26_ADC0-Pad31)" /ServoPort/SERVO.NULL "unconnected-(J26-DAT2-Pad1)" "unconnected-(J26-DAT1-Pad8)" "unconnected-(J26-DET_B-Pad9)" "unconnected-(J26-DET_A-Pad10)" "Net-(Q2-D)"
+    /SERVO.SERIAL1.RX "Net-(Q1-D)" "unconnected-(U1-RUN-Pad30)" /SERVO.SERIAL0.RX /SERVO.SERIAL0.TX /SERVO.SERIAL1.TX "unconnected-(U1-GPIO10-Pad14)" "unconnected-(U1-GPIO11-Pad15)"
+    "unconnected-(U1-GPIO12-Pad16)" "unconnected-(U1-GPIO13-Pad17)" "unconnected-(U1-GPIO14-Pad19)" "unconnected-(U1-GPIO15-Pad20)" "unconnected-(U1-GPIO20-Pad26)" "unconnected-(U1-GPIO21-Pad27)" /I2C0.SDA /I2C0.SCL
+    /SERVO.SERIAL0.DE /SERVO.SERIAL1.DE "unconnected-(U1-ADC_VREF-Pad35)" "unconnected-(U1-3V3_EN-Pad37)" /ServoPort/SERVO.SERIAL0 /ServoPort/SERVO.SERIAL1 "unconnected-(U1-VBUS-Pad40)" "unconnected-(U1-GPIO28_ADC2-Pad34)"
+    "unconnected-(U1-GPIO27_ADC1-Pad32)" "unconnected-(U1-GPIO26_ADC0-Pad31)" /ServoPort/SERVO.NULL "Net-(Q2-D)"
     (clearance_class "kicad_default")
     (via_rule "kicad_default")
     (rule
@@ -129,7 +129,7 @@
     )
   )
   (class "Power_2"
-    +3V3 GND +5V
+    GND +3V3 +5V
     (clearance_class "Power_2")
     (via_rule "Power_2")
     (rule
