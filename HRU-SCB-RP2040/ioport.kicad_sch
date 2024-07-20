@@ -1102,7 +1102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc2d60b-ee99-416d-bfe6-f507e7cb3f6f")
-		(property "Reference" "J27"
+		(property "Reference" "J28"
 			(at 46.355 83.82 0)
 			(effects
 				(font
@@ -1118,7 +1118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPL_Connector:HW4-2.0-90D"
+		(property "Footprint" "mymod:PinHeader_1x04_P2.54mm_Vertical_SmallCourtyard"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -1160,7 +1160,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/e77e8245-6b3f-4da7-90e6-d027ac806a87"
-					(reference "J27")
+					(reference "J28")
 					(unit 1)
 				)
 			)
