@@ -436,6 +436,171 @@
 				)
 			)
 		)
+		(symbol "Device:D_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_names
 				(offset 0) hide)
@@ -1376,6 +1541,12 @@
 		(uuid "371df372-8f28-44bc-814a-2b0122112a55")
 	)
 	(junction
+		(at 88.9 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a8fb5c-0c76-4a33-ae8b-ce6188fc556d")
+	)
+	(junction
 		(at 50.8 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1398,6 +1569,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1105aa8-fcaf-4407-8d17-d2daafe73b09")
+	)
+	(junction
+		(at 50.8 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d98de2f1-1dbf-4c93-bc5f-58435b4f55a5")
 	)
 	(junction
 		(at 63.5 66.04)
@@ -1433,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 50.8 50.8)
+			(xy 50.8 35.56) (xy 50.8 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 88.9 50.8)
+			(xy 88.9 35.56) (xy 88.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1483,6 +1660,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 40.64) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254ea692-aa39-4ce4-86f6-2aaa056ab251")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3095e186-bbe8-4673-84bb-a0d63da17c64")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 114.3 60.96)
 		)
 		(stroke
@@ -1510,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "77fd254a-9a7c-4716-be27-9574c100a6f0")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b42c684-e856-4c79-8594-b3e515a2637d")
 	)
 	(wire
 		(pts
@@ -1691,6 +1898,16 @@
 		)
 		(uuid "fcb3c97d-6484-4368-8cbc-453dde9bf1ef")
 	)
+	(wire
+		(pts
+			(xy 66.04 40.64) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf7c3ea-1d20-4298-82eb-742b2cba9d5b")
+	)
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 50.8 68.58 0)
@@ -1759,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 48.26 0)
+		(at 88.9 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1768,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "126f46c2-c3d1-4256-a5e9-b2007a1e4d79")
 		(property "Reference" "#PWR023"
-			(at 88.9 52.07 0)
+			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1994,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 43.18 0)
+			(at 88.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +2002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 48.26 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 48.26 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +2020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 48.26 0)
+			(at 88.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +2042,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 50.8 48.26 0)
+		(at 50.8 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1834,7 +2051,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f4b4c90-f69c-4c87-9abd-bda8a7eb36b3")
 		(property "Reference" "#PWR021"
-			(at 50.8 52.07 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +2060,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 50.8 43.18 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +2068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 48.26 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 48.26 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 48.26 0)
+			(at 50.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2398,7 @@
 				)
 			)
 		)
-		(property "Value" "NJM7805FA"
+		(property "Value" "L7805"
 			(at 63.5 46.99 0)
 			(effects
 				(font
@@ -2249,6 +2466,92 @@
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 63.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e65bb0a-26a3-4021-97c1-1ec3c7562a5f")
+		(property "Reference" "D1"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_T-1_P12.70mm_Horizontal"
+			(at 63.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "934584b1-07e1-48b3-9c23-c00868e4fc31")
+		)
+		(pin "2"
+			(uuid "b5b2b1da-3e56-40fb-a041-2c33e1e8f05b")
+		)
+		(instances
+			(project ""
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
+					(reference "D1")
 					(unit 1)
 				)
 			)
