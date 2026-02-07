@@ -9,9 +9,9 @@
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.2,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -41,10 +41,10 @@
           "height": 2.7,
           "width": 2.7
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -70,16 +70,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -90,24 +93,29 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -122,28 +130,30 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.05,
-        "min_hole_clearance": 0.0,
-        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.0,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.1,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -182,7 +192,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.254,
+        0.762
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -214,6 +227,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false,
@@ -461,45 +482,61 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HRU-SCB-UPS-uHAT.kicad_pro",
+    "filename": "HRU-SCB-uHAT.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.127,
         "line_style": 0,
-        "microvia_diameter": 0.5,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.9,
-        "via_drill": 0.6,
+        "track_width": 0.127,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.127,
         "line_style": 0,
-        "microvia_diameter": 0.5,
-        "microvia_drill": 0.1,
-        "name": "Power",
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 1.0,
-        "via_drill": 0.7,
+        "track_width": 0.762,
+        "via_diameter": 0.762,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
@@ -508,7 +545,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_1",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Power_1",
+        "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "Power_2",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power_2",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power_2",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -642,6 +700,42 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
+    ],
+    [
+      "8dcadd97-b646-4b87-a2f7-aeec20f96cf8",
+      "ServoConnector0"
+    ],
+    [
+      "7c919856-7587-4ed3-ad0f-abebb79f1b3b",
+      "ServoConnector1"
+    ],
+    [
+      "f3f65f55-3926-49ee-8597-b7a07f3018e7",
+      "ServoConnector2"
+    ],
+    [
+      "eb94ad4c-53df-4a26-8ec6-3c6d116776aa",
+      "ServoConnector3"
+    ],
+    [
+      "1ec5ffa4-b0bd-4c3a-bc8d-ae5b58d0acf4",
+      "ServoDriver0"
+    ],
+    [
+      "15f085c8-2b7d-4795-8790-dd861add283d",
+      "ServoDriver1"
+    ],
+    [
+      "b2a70ade-5b87-4c4e-8125-eb31298f3439",
+      "ServoDriver2"
+    ],
+    [
+      "a3544c90-3461-4b60-a43c-45c39c107771",
+      "ExtendConnector"
+    ],
+    [
+      "e168b506-fa87-40d6-bfa6-b3eafb92a834",
+      "ServoDriver3"
     ]
   ],
   "text_variables": {}
