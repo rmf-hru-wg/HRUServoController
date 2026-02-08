@@ -500,14 +500,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1524,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.381,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.127,
         "line_style": 0,
@@ -523,21 +523,18 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.127,
-        "line_style": 0,
         "microvia_diameter": 0.4572,
         "microvia_drill": 0.254,
         "name": "Power_2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.2032,
         "via_diameter": 0.508,
-        "via_drill": 0.254,
-        "wire_width": 6
+        "via_drill": 0.254
       }
     ],
     "meta": {
@@ -575,7 +572,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "HRU-SCB-uHAT.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

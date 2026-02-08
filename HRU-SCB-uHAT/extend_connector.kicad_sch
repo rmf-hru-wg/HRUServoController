@@ -838,249 +838,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GROVE-CONNECTOR-SMD_4+2P-2.0__1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J4"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "GROVE-CONNECTOR-SMD_4+2P-2.0_"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "OPL_Connector:GROVE-HW4-SMD-2.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "320110030"
-				(at 0.762 3.81 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*HW4-SMD-2.0*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GROVE-CONNECTOR-SMD_4+2P-2.0__1_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GROVE-CONNECTOR-SMD_4+2P-2.0__1_1_1"
-				(pin bidirectional inverted_clock
-					(at -5.08 3.81 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -5.08 1.27 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -5.08 -1.27 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional inverted
-					(at -5.08 -3.81 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "SS1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "SS2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -1278,6 +1035,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OPL_Connector:GROVE-CONNECTOR-SMD_4+2P-2.0_"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GROVE-CONNECTOR-SMD_4+2P-2.0_"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "320110030"
+				(at 0.762 3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*HW4-SMD-2.0*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GROVE-CONNECTOR-SMD_4+2P-2.0__1_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GROVE-CONNECTOR-SMD_4+2P-2.0__1_1"
+				(pin bidirectional inverted_clock
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -5.08 -1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -5.08 -3.81 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "SS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "SS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1405,8 +1405,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1455,7 +1459,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1506,8 +1510,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1527,8 +1530,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1577,7 +1584,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1604,8 +1611,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,6 +1802,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -1947,6 +2054,12 @@
 		(uuid "3a95b565-649c-4cdf-84fd-603b84b4d6dd")
 	)
 	(junction
+		(at 149.86 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42dc7a55-ce35-4307-924c-7dd34ff5bd0f")
+	)
+	(junction
 		(at 76.2 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2019,6 +2132,18 @@
 		(uuid "9ae6c30c-7ade-4f75-929d-67ad476d2b16")
 	)
 	(junction
+		(at 199.39 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a631459d-689a-4dac-9909-d0c829b8b348")
+	)
+	(junction
+		(at 154.94 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba43fcfc-ea54-4660-987b-ddda5625a2dc")
+	)
+	(junction
 		(at 86.36 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,6 +2180,16 @@
 			(type default)
 		)
 		(uuid "085e8ad1-ae3e-46d1-99fe-f8d542f0bbb7")
+	)
+	(wire
+		(pts
+			(xy 204.47 33.02) (xy 204.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b97674b-1ffd-441c-9192-2517537a23e4")
 	)
 	(wire
 		(pts
@@ -2105,6 +2240,26 @@
 			(type default)
 		)
 		(uuid "1476bb1c-610f-467c-a275-a65a4598eb4e")
+	)
+	(wire
+		(pts
+			(xy 116.84 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a64b17-bfab-4045-aa93-2d81bdc4e669")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 162.56 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1886f13b-cdcc-41e1-8455-80b9d92e72c3")
 	)
 	(wire
 		(pts
@@ -2195,6 +2350,16 @@
 			(type default)
 		)
 		(uuid "3aa29470-5933-40d0-ab3a-fbc1f359f3e2")
+	)
+	(wire
+		(pts
+			(xy 204.47 35.56) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e4e884-694a-4401-8f3d-5f5a55cf3686")
 	)
 	(wire
 		(pts
@@ -2298,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 38.1) (xy 162.56 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68608e0f-74f0-41dc-a57f-89e75c6d7a60")
+	)
+	(wire
+		(pts
 			(xy 127 22.86) (xy 127 25.4)
 		)
 		(stroke
@@ -2325,6 +2500,16 @@
 			(type default)
 		)
 		(uuid "73460818-7894-48de-937e-9f3267dff5f0")
+	)
+	(wire
+		(pts
+			(xy 116.84 43.18) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b510cb-cbc8-4c50-bcf5-549b357bc80f")
 	)
 	(wire
 		(pts
@@ -2365,6 +2550,16 @@
 			(type default)
 		)
 		(uuid "7ee65658-a07e-40f8-91b9-d353e816b8d7")
+	)
+	(wire
+		(pts
+			(xy 149.86 20.32) (xy 149.86 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80171dc1-3b06-479e-a601-19e29277323e")
 	)
 	(wire
 		(pts
@@ -2884,6 +3079,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -2892,9 +3088,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -2910,6 +3107,72 @@
 			(project "HRU-SCB-uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192c20f2-3858-41e3-8fb1-9669844572f2")
+		(property "Reference" "#FLG01"
+			(at 149.86 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f634d553-6811-4394-b77b-e28bc09a3dfd")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3326,72 @@
 		)
 	)
 	(symbol
-		(lib_name "GROVE-CONNECTOR-SMD_4+2P-2.0__1")
+		(lib_id "power:+3.3V")
+		(at 73.66 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cb90df-2e7c-444e-a997-3265a763d7a7")
+		(property "Reference" "#PWR061"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6d28e9f-7e2b-4dd1-912e-4eec208ff9ad")
+		)
+		(instances
+			(project "HRU-SCB-uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OPL_Connector:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 63.5 82.55 0)
 		(mirror y)
@@ -3128,13 +3456,13 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
+		(pin "SS2"
 			(uuid "f52c6278-7be0-4fc9-bbee-2664c834ae6d")
 		)
 		(pin "3"
 			(uuid "a589ab1d-c529-479d-9121-b7692b2f8d18")
 		)
-		(pin "6"
+		(pin "SS1"
 			(uuid "b4898745-f14f-4bba-baab-2f1af003fac0")
 		)
 		(pin "2"
@@ -3187,6 +3515,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3195,9 +3524,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 194.31 50.8 0)
 			(effects
 				(font
@@ -3213,6 +3543,72 @@
 			(project "HRU-SCB-uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 204.47 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47746f8e-ec70-44a0-8832-3b513587bdbe")
+		(property "Reference" "#FLG02"
+			(at 204.47 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 204.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acc64836-e2dd-4d9c-978d-119e7b9132b0")
+		)
+		(instances
+			(project "HRU-SCB-uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3250,6 +3646,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3258,9 +3655,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -3425,6 +3823,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69407ceb-f918-4b61-b471-b2d2a2843566")
+		(property "Reference" "#FLG05"
+			(at 162.56 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 162.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff8c586-c1c6-4461-8ba4-3122ae56b1ed")
+		)
+		(instances
+			(project "HRU-SCB-uHAT"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 127 20.32 0)
 		(unit 1)
@@ -3522,6 +3986,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3530,9 +3995,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 43.18 0)
 			(effects
 				(font
@@ -3840,7 +4306,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bed42389-3b83-49dd-adde-63906b3e616c")
+		(uuid "bf269f2a-0a40-49bc-b6cf-7389c399097a")
 		(property "Reference" "#PWR059"
 			(at 73.66 22.86 0)
 			(effects
@@ -3850,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 73.66 13.97 0)
 			(effects
 				(font
@@ -3886,7 +4352,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "65b1b432-20e6-412f-a611-b45bc26df3ce")
+			(uuid "0383b2eb-1b55-4d5a-85be-cb791d3dcb2c")
 		)
 		(instances
 			(project ""
@@ -3977,7 +4443,72 @@
 		)
 	)
 	(symbol
-		(lib_name "GROVE-CONNECTOR-SMD_4+2P-2.0__1")
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d262f2af-f967-43ee-8949-ee08913ac519")
+		(property "Reference" "#FLG04"
+			(at 116.84 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a94f73-2d8c-4508-83d8-a36cd9671da5")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OPL_Connector:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 63.5 38.1 0)
 		(mirror y)
@@ -4042,13 +4573,13 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
+		(pin "SS2"
 			(uuid "d3f5960e-4e2c-463a-a833-947bbd1c9b53")
 		)
 		(pin "3"
 			(uuid "989ccf43-f33e-40d5-b809-ca10a4654ce3")
 		)
-		(pin "6"
+		(pin "SS1"
 			(uuid "f5891b1b-0078-4709-9213-4128520c4706")
 		)
 		(pin "2"
@@ -4064,72 +4595,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7532983-39b4-498d-bac0-1e29305c8384")
-		(property "Reference" "#PWR061"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1db05b67-d1a0-4d45-8d16-6b7110caaac7")
-		)
-		(instances
-			(project "HRU-SCB-uHAT"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3544c90-3461-4b60-a43c-45c39c107771"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4246,6 +4711,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4254,9 +4720,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 194.31 33.02 0)
 			(effects
 				(font
@@ -4379,6 +4846,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4387,9 +4855,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 95.25 0)
 			(effects
 				(font
