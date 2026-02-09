@@ -500,7 +500,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.127,
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
@@ -560,7 +560,7 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "Power_2",
+        "netclass": "Default",
         "pattern": "GND"
       }
     ]
