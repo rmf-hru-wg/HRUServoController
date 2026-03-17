@@ -302,17 +302,6 @@
 		(layer "B.CrtYd")
 		(uuid "e691e652-71b8-4c0a-9b4d-27d676102487")
 	)
-	(fp_rect
-		(start -12.5 -19.5)
-		(end 12.5 5.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "e7a81e00-9ec0-40fd-8909-3e70072c8432")
-	)
 	(fp_line
 		(start -8.89 -8.255)
 		(end -8.255 -8.89)
@@ -503,6 +492,38 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f2231ae5-b4b4-46f0-899f-4f73f387f134")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "73c9d67f-01c5-4a79-89d3-4c736c79df48")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -12.5 -19.5) (xy 12.5 -19.5) (xy 12.5 5.5) (xy -12.5 5.500001)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
