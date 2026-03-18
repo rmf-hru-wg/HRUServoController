@@ -482,7 +482,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HRU-SCB-uHAT.kicad_pro",
+    "filename": "HRU-SCB-Raspi-SPI-UART-uHAT.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -572,7 +572,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "HRU-SCB-uHAT.dsn",
+      "specctra_dsn": "HRU-SCB-Raspi-SPI-UART-uHAT.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
