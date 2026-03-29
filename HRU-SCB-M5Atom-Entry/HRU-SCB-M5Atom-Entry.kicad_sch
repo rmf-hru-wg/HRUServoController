@@ -4556,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -4893,7 +4893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -5032,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -5103,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 182.88 53.34 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
 			(at 160.02 40.64 0)
 			(effects
 				(font
