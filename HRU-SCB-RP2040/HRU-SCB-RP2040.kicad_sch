@@ -4671,6 +4671,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
@@ -4869,6 +4887,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
@@ -4925,6 +4961,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
 			(at 215.9 124.46 0)
 			(effects
 				(font
@@ -4997,6 +5051,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
@@ -5016,7 +5088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c74d03cf-58f4-4913-b64f-8b27759af4fe")
-		(property "Reference" "J27"
+		(property "Reference" "J1"
 			(at 96.52 93.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5056,6 +5128,24 @@
 		)
 		(property "Description" "One of two 1x20 headers for connecting a Raspberry Pi Pico, with the Pico's specific pins and capabilities implemented, single row, 01x20"
 			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5216,7 @@
 		(instances
 			(project ""
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
-					(reference "J27")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5187,6 +5277,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
@@ -5206,7 +5314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbe3c57d-be98-44a0-9f9f-d79d67dbc9e5")
-		(property "Reference" "J26"
+		(property "Reference" "J2"
 			(at 55.88 93.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5246,6 +5354,24 @@
 		)
 		(property "Description" "One of two 1x20 headers for connecting a Raspberry Pi Pico, with the Pico's specific pins and capabilities implemented, single row, 01x20"
 			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 76.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5442,7 @@
 		(instances
 			(project ""
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21"
-					(reference "J26")
+					(reference "J2")
 					(unit 1)
 				)
 			)

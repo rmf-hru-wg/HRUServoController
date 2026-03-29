@@ -168,6 +168,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Converter_DCDC:R-78E3.3-0.5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-78E3.3-0.5"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78E*0.5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-78E3.3-0.5_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R-78E3.3-0.5_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -289,146 +431,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -631,148 +633,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:L7805"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7805"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7805_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7805_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1398,60 +1258,48 @@
 		)
 	)
 	(junction
-		(at 127 50.8)
+		(at 86.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b6e6a09-60db-4b49-aacc-c4144bdf1dd0")
+	)
+	(junction
+		(at 76.2 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371df372-8f28-44bc-814a-2b0122112a55")
 	)
 	(junction
-		(at 50.8 66.04)
+		(at 86.36 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8da9d294-ecaf-48f0-8bbe-9f9986b141e4")
+		(uuid "3a1d411c-538a-472b-b1c1-020521338b44")
 	)
 	(junction
-		(at 88.9 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dc449ba-de60-4441-bbdd-cdd87854abe4")
-	)
-	(junction
-		(at 50.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac12187e-f609-4166-aac4-56dd11722f42")
-	)
-	(junction
-		(at 88.9 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1105aa8-fcaf-4407-8d17-d2daafe73b09")
-	)
-	(junction
-		(at 63.5 66.04)
+		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb96b1e-cb1f-4da5-89a3-6dcfac0510e2")
 	)
 	(junction
-		(at 127 63.5)
+		(at 76.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecf58626-0571-4d3f-aa0a-5005c976d878")
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 139.7 63.5)
+			(xy 63.5 38.1) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02742553-3955-45a3-b72d-0ea8884aec0d")
+		(uuid "03e1b396-906a-4d46-85ee-5faaf0d1705c")
 	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 72.39 66.04)
+			(xy 101.6 50.8) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 35.56) (xy 88.9 50.8)
+			(xy 127 35.56) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1319,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 127 55.88)
+			(xy 63.5 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b15744-73f5-4015-a545-611c6ace784b")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 127 66.04)
+			(xy 76.2 50.8) (xy 76.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 114.3 53.34)
+			(xy 86.36 38.1) (xy 86.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1501,17 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "254ea692-aa39-4ce4-86f6-2aaa056ab251")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 114.3 60.96)
+			(xy 86.36 50.8) (xy 86.36 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 50.8) (xy 88.9 50.8)
+			(xy 109.22 38.1) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 129.54 55.88)
+			(xy 76.2 43.18) (xy 63.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1541,27 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 127 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfede47-daf4-4f08-a0a5-d4edd78643ac")
-	)
-	(wire
-		(pts
-			(xy 88.9 60.96) (xy 88.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca0695a-9736-4ad6-a004-13a73603f195")
-	)
-	(wire
-		(pts
-			(xy 63.5 58.42) (xy 63.5 66.04)
+			(xy 101.6 45.72) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1571,37 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 63.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82245dd8-17f8-4c07-af5f-9e4fba9bfa94")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 50.8 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2422af-164c-43a5-8ef5-3c7aa0d31cef")
-	)
-	(wire
-		(pts
-			(xy 50.8 66.04) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991b6d34-6621-4dc2-99b5-2b3d34efb606")
-	)
-	(wire
-		(pts
-			(xy 80.01 66.04) (xy 88.9 66.04)
+			(xy 118.11 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 127 58.42)
+			(xy 63.5 45.72) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1621,27 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 50.8 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c7e423-0763-4e75-a233-af5b68a194cd")
-	)
-	(wire
-		(pts
-			(xy 88.9 50.8) (xy 88.9 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7415704-7636-4b14-9bd7-34afe8477606")
-	)
-	(wire
-		(pts
-			(xy 139.7 48.26) (xy 139.7 50.8)
+			(xy 63.5 35.56) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1651,17 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 127 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2f78e2-9517-4bc4-a2a6-34229e2219bc")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 127 63.5)
+			(xy 86.36 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1671,17 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 55.88 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0dbb781-0843-4ec0-b3e0-8b4e21a9de80")
-	)
-	(wire
-		(pts
-			(xy 88.9 66.04) (xy 88.9 68.58)
+			(xy 127 50.8) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1449,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 127 50.8)
+			(xy 63.5 52.07) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42afd29-1cd9-4277-a6e1-a04687b6d723")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48636cd-9bb5-48ec-95ab-5edff548321c")
+	)
+	(wire
+		(pts
+			(xy 86.36 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 127 63.5)
+			(xy 76.2 45.72) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1489,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 127 50.8)
+			(xy 86.36 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee9cee0-8e13-415c-82f1-0f4277bf21dc")
+	)
+	(wire
+		(pts
+			(xy 76.2 35.56) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1720,74 +1508,8 @@
 		(uuid "fcb3c97d-6484-4368-8cbc-453dde9bf1ef")
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 50.8 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0093b9a4-fbfa-401b-8193-28a4c3a4790e")
-		(property "Reference" "#PWR022"
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 50.673 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb9be833-9f19-4ad8-839a-1cbab19f8734")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 35.56 0)
+		(at 127 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1795,8 +1517,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "126f46c2-c3d1-4256-a5e9-b2007a1e4d79")
-		(property "Reference" "#PWR023"
-			(at 88.9 39.37 0)
+		(property "Reference" "#PWR018"
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1527,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 30.48 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 35.56 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 35.56 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 35.56 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,73 +1567,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 50.8 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f4b4c90-f69c-4c87-9abd-bda8a7eb36b3")
-		(property "Reference" "#PWR021"
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 50.8 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9922086-3c3a-48c4-a392-b57e4a4c4737")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1919,16 +1575,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 134.62 55.88 0)
-		(mirror y)
+		(at 58.42 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "309b51c4-f6fc-44b5-96c9-d5e7e88b0984")
-		(property "Reference" "J25"
-			(at 135.89 58.42 0)
+		(property "Reference" "J4"
+			(at 57.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1593,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 135.89 55.88 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,8 +1601,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 134.62 55.88 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 55.88 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1620,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 55.88 0)
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1655,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "J25")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1989,7 +1663,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 76.2 66.04 0)
+		(at 114.3 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1998,7 +1672,7 @@
 		(fields_autoplaced yes)
 		(uuid "34bbcb09-6a06-4994-90aa-a3fa7f229867")
 		(property "Reference" "JP1"
-			(at 76.2 59.69 0)
+			(at 114.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +1680,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 76.2 62.23 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +1688,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 76.2 66.04 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 66.04 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +1706,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 66.04 0)
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,78 +1748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cb7ccf6-6df7-4af5-ac82-926d11d1fd50")
-		(property "Reference" "C1"
-			(at 53.34 57.1563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.33uF"
-			(at 53.34 59.6963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 50.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4870ef38-8983-47b6-ac27-e90e49d497f8")
-		)
-		(pin "2"
-			(uuid "097dbef9-ad5d-4c46-bfda-46b0a68d13dc")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 139.7 66.04 180)
+		(at 63.5 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2136,7 +1758,7 @@
 		(fields_autoplaced yes)
 		(uuid "7097be3b-092b-4723-9340-637cbcccf639")
 		(property "Reference" "#FLG02"
-			(at 139.7 67.945 0)
+			(at 63.5 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +1767,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 139.7 71.12 0)
+			(at 63.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +1775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 66.04 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +1784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 66.04 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +1793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 66.04 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,99 +1814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 63.5 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8944b0c9-388a-4539-bb57-b6bcdb7a93e4")
-		(property "Reference" "U4"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7805"
-			(at 63.5 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
-			(at 64.135 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://akizukidenshi.com/download/ds/njr/NJM7800_J.pdf"
-			(at 63.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AKI_URL" "https://akizukidenshi.com/catalog/g/gI-08678/"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AKI_CODE" "NJM7805FA"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21883d9e-e291-4833-a03a-d806cdb62f4a")
-		)
-		(pin "2"
-			(uuid "6d91dc7f-f5a7-4a42-bf37-c9f710c743d1")
-		)
-		(pin "3"
-			(uuid "4376b1e5-4ec0-42cb-a064-d3939554d735")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 114.3 57.15 0)
+		(at 86.36 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2292,8 +1823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6099375-9ac5-4577-9da1-6c6339287d77")
-		(property "Reference" "C3"
-			(at 118.11 55.88 0)
+		(property "Reference" "C1"
+			(at 90.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +1833,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 118.11 58.42 0)
+			(at 90.17 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
-			(at 115.2652 60.96 0)
+			(at 87.3252 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 57.15 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +1860,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 57.15 0)
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 86.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +1895,98 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "C3")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:R-78E3.3-0.5")
+		(at 101.6 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bedacc76-4b0b-413e-848d-b086dd1c1c7c")
+		(property "Reference" "U3"
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-78E3.3-0.5"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3b6807b6-9049-4913-98d8-e7a99e759b66")
+		)
+		(pin "1"
+			(uuid "19367264-3c96-408e-b73d-8e2259fd921b")
+		)
+		(pin "2"
+			(uuid "dec83307-43f4-4985-9f01-1912d5fe0e43")
+		)
+		(instances
+			(project ""
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2354,7 +1994,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 139.7 48.26 0)
+		(at 63.5 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2364,7 +2004,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6474bea-091a-4af5-b026-e8ce16612485")
 		(property "Reference" "#FLG01"
-			(at 139.7 46.355 0)
+			(at 63.5 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2013,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 139.7 43.18 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 48.26 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 48.26 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 48.26 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2061,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 127 66.04 0)
+		(at 76.2 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2429,8 +2069,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b02d48-7b29-4871-8e0f-ea6c1604b1b3")
-		(property "Reference" "#PWR026"
-			(at 127 71.12 0)
+		(property "Reference" "#PWR017"
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2079,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 126.873 69.85 0)
+			(at 76.073 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 67.31 0)
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 67.31 0)
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 66.04 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,86 +2119,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 88.9 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57d030b-6fb8-4fe9-9def-b72b4759c1b1")
-		(property "Reference" "C2"
-			(at 91.44 57.1563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 91.44 59.6963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AKI_CODE" "RDER71H104K0P1H03B"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2cef481-3f09-45b7-ae5f-3d8b94f2b367")
-		)
-		(pin "2"
-			(uuid "1c6c3f18-79c2-43eb-af4d-f75399057dea")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "C2")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2127,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 68.58 0)
+		(at 127 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2574,8 +2135,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f31d2ea6-b8c3-4291-847a-6e9619d07a2e")
-		(property "Reference" "#PWR024"
-			(at 88.9 74.93 0)
+		(property "Reference" "#PWR019"
+			(at 127 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2145,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 73.66 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 68.58 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 68.58 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2171,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 68.58 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2185,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2193,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 127 48.26 0)
+		(at 76.2 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2640,8 +2201,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5060857-41c2-460a-8794-d9179d9f94f7")
-		(property "Reference" "#PWR025"
-			(at 127 52.07 0)
+		(property "Reference" "#PWR016"
+			(at 76.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2211,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 127 43.18 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 48.26 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 48.26 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 48.26 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2251,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/8865bb96-b424-4214-9ee7-9e2e6881a969"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

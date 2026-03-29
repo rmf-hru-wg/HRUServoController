@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0292e1bd-f7f3-4261-860d-54fe6f4a4497")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 190.5 39.37 0)
 			(effects
 				(font
@@ -4433,153 +4433,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cf529f4-e05c-4337-85e6-1a0c4c5c05da")
-		(property "Reference" "J18"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65336ad6-2e00-40b2-8743-ff698fc0c4ee")
-		)
-		(pin "2"
-			(uuid "378f10c0-670d-4025-a8d6-49b2398d774e")
-		)
-		(pin "3"
-			(uuid "1ee9268f-36c7-4ad6-9c64-2c6a5eb94284")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f50dfb1-8a6e-49cc-825b-281c9dcb6c92")
-		(property "Reference" "J11"
-			(at 49.53 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bca6e62d-bc42-4381-b229-97b64ca84ba9")
-		)
-		(pin "2"
-			(uuid "43534f13-65ab-4ce9-b5ca-3a1276cac54f")
-		)
-		(pin "3"
-			(uuid "5183886e-21dc-4a01-8c7c-1a8b7db792f1")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J11")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4595,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "147e8161-6fc8-4853-9989-5fecc54ea55b")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 205.74 43.1799 0)
 			(effects
 				(font
@@ -4640,6 +4494,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 203.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5b89059-7253-424d-ba55-5c9faa0bebbe")
 		)
@@ -4649,7 +4521,98 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R3")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "160f3447-3120-4afa-b6c2-4516a66c121f")
+		(property "Reference" "S16"
+			(at 113.03 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5169a0-ddbc-4249-93ce-bbcc9d512c7f")
+		)
+		(pin "2"
+			(uuid "f02694ba-64f6-4bb1-aece-f9960638e3c3")
+		)
+		(pin "3"
+			(uuid "21271ca4-87da-47cd-9518-f86280764c5a")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc96817-283f-4024-8c15-65ec41f0fcfb")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 180.34 43.1799 0)
 			(effects
 				(font
@@ -4710,6 +4673,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f347da51-6933-4bf6-a911-a0e72d0847e4")
 		)
@@ -4719,7 +4700,98 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "236ed04b-6345-4f0a-860f-93c552c11dbc")
+		(property "Reference" "S7"
+			(at 49.53 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d26897fd-feb8-42ee-9943-8db1deefac19")
+		)
+		(pin "2"
+			(uuid "a55038a9-a1de-4d5c-b74f-207625fd7f8d")
+		)
+		(pin "3"
+			(uuid "f99215ef-d9cf-43e6-8edb-93562fdc3e08")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -4735,7 +4807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2512f582-3903-4f4b-8974-3f6f963e40b6")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 243.84 45.7199 0)
 			(effects
 				(font
@@ -4780,6 +4852,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 241.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 241.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc2706ad-efa2-41d9-ae30-80beccce6f7e")
 		)
@@ -4789,7 +4879,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4797,16 +4887,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 66.04 180)
+		(at 48.26 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25d04883-1b8e-4194-9641-ff2d34b658ea")
-		(property "Reference" "J16"
-			(at 113.03 64.77 0)
+		(uuid "3109a74b-b9fb-4eb8-b230-e517c3d12596")
+		(property "Reference" "S4"
+			(at 49.53 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4905,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 67.31 0)
+			(at 49.53 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4914,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 66.04 0)
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 66.04 0)
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4932,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 66.04 0)
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,18 +4959,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "978d810c-cb96-4f13-ad33-185d1b559119")
+			(uuid "68cf1ac1-b14a-4acc-a445-7d8fb10cecc5")
 		)
 		(pin "2"
-			(uuid "e6023ea9-b8b3-4c2e-a8aa-61519cef98a7")
+			(uuid "b9475a41-5469-433f-83b2-f9c86308af75")
 		)
 		(pin "3"
-			(uuid "5fffd1fb-bdd5-434c-8307-bdf37eeea1b0")
+			(uuid "69fefa36-e185-4ff5-a66e-3fe49d1a7310")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J16")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -4870,16 +4978,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 129.54 180)
+		(at 111.76 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2fb1b5ac-6a01-4ecb-b06a-78716526c811")
-		(property "Reference" "J21"
-			(at 113.03 128.27 0)
+		(uuid "31d16008-a7a5-4cdb-b8a4-409d6800ce88")
+		(property "Reference" "S20"
+			(at 113.03 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4996,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 130.81 0)
+			(at 113.03 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5005,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 129.54 0)
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +5014,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 129.54 0)
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5023,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 129.54 0)
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,18 +5050,200 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bf2cc08-88ee-453f-bf89-dec91cb997d3")
+			(uuid "e9b77ed0-e357-4ed4-8550-f18463a22992")
 		)
 		(pin "2"
-			(uuid "b7d333fd-231a-45ba-a84b-4aca2412f90a")
+			(uuid "19dc7ada-90d7-44cd-b44e-a588abc1c20a")
 		)
 		(pin "3"
-			(uuid "7eb805e9-1247-4b73-aef9-354cdf7c7635")
+			(uuid "73114579-9958-4b91-a9e8-0a4051695018")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J21")
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329ccd69-f08a-46af-afbc-e8cd6a21120f")
+		(property "Reference" "S14"
+			(at 113.03 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b98114-1f8d-4f95-a5f1-f25df364ba61")
+		)
+		(pin "2"
+			(uuid "a5cbbb79-b2bd-40fa-87c4-a2213bef0cc8")
+		)
+		(pin "3"
+			(uuid "780798f8-30b6-4ef3-90f0-0a5c6d7f3f3d")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "383c0eb9-6a64-4b6f-a817-3e6dd8db4b2d")
+		(property "Reference" "S19"
+			(at 113.03 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66873c6a-c2e0-4389-aba9-b0b60f45ce0d")
+		)
+		(pin "2"
+			(uuid "aef25e66-b279-4876-9931-c97bd24c3a3c")
+		)
+		(pin "3"
+			(uuid "928f7198-ca16-4462-97d0-dcd9057ce4ff")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S19")
 					(unit 1)
 				)
 			)
@@ -4951,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c27aea0-6db6-4503-a604-42f252e1b580")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 261.62 45.72 0)
 			(effects
 				(font
@@ -4996,6 +5304,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6041539d-6ea5-43d0-ace3-de639d2f52cf")
 		)
@@ -5005,7 +5331,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5013,16 +5339,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 78.74 180)
+		(at 111.76 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e80aef9-8297-421d-8e75-e70fb0af8ecb")
-		(property "Reference" "J5"
-			(at 49.53 77.47 0)
+		(uuid "41bdcf7f-7397-4c93-a3d9-bc8f24df384e")
+		(property "Reference" "S23"
+			(at 113.03 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5357,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 80.01 0)
+			(at 113.03 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 78.74 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 78.74 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5384,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 78.74 0)
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,18 +5411,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "492ba6d5-62e9-4d21-a6ec-8fd40c44a463")
+			(uuid "c8693aae-9db3-4a1f-864b-e25c1023cfe4")
 		)
 		(pin "2"
-			(uuid "00aac107-03d9-4b0e-92aa-bbb094890e15")
+			(uuid "4524acb0-7d09-4022-afb7-dc11af5599a1")
 		)
 		(pin "3"
-			(uuid "b664db47-db37-4528-adb4-f21d390106e5")
+			(uuid "720a7c77-4daa-444a-8878-a9e21b4ecd8a")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J5")
+					(reference "S23")
 					(unit 1)
 				)
 			)
@@ -5094,7 +5438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4417d2bb-2124-4889-bce4-820ade841b53")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 203.2 102.87 0)
 			(effects
 				(font
@@ -5144,7 +5488,98 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR011")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d8ba360-e8bf-4963-a7dd-c31773550375")
+		(property "Reference" "S18"
+			(at 113.03 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26d3057c-faa9-4e04-8d60-7ffb83a169a1")
+		)
+		(pin "2"
+			(uuid "6b94380f-35a5-4f35-a4c9-a724859f69a5")
+		)
+		(pin "3"
+			(uuid "9b4d1bda-a50a-4f00-8ead-2ae5b2fd2a24")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S18")
 					(unit 1)
 				)
 			)
@@ -5159,9 +5594,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d497785-f863-4594-b1dd-b5bd494a13cd")
-		(property "Reference" "J15"
-			(at 113.03 52.07 0)
+		(uuid "5044e11b-4669-41ff-89a3-6f8763f59e7e")
+		(property "Reference" "S15"
+			(at 113.03 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5605,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 54.61 0)
+			(at 113.03 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,19 +5640,128 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "04604fdc-20a3-4ed3-b9ef-33416f65d8e4")
+			(uuid "cc7fc265-cb7c-4a97-8781-d567e722e205")
 		)
 		(pin "2"
-			(uuid "ac78d65d-e58c-487f-b0de-652bbf937a46")
+			(uuid "c849aa33-2fad-4129-979b-865562b1f0ce")
 		)
 		(pin "3"
-			(uuid "2ffe67a9-fcde-4d99-8eb2-4a8c4bf369cc")
+			(uuid "734a24e0-dfc6-4f3a-a52c-09732aa83dd2")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J15")
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "528cada8-55e6-47c0-b4c3-e9970a233cb3")
+		(property "Reference" "S3"
+			(at 49.53 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc3851c-9b2d-43f5-a249-f7e93a6a227f")
+		)
+		(pin "2"
+			(uuid "04c0fe2d-efef-4336-83e7-22e091203003")
+		)
+		(pin "3"
+			(uuid "55c54bb4-2b23-4fe1-bf10-564bc446615c")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -5233,7 +5777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581e4d42-bc1d-4095-b1af-896b257470d2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 222.25 85.09 0)
 			(effects
 				(font
@@ -5284,80 +5828,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b38328a-efab-4ab6-a5a7-b2a5201eab23")
-		(property "Reference" "J7"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e234f50a-f4f8-4529-b1ae-3299cc60f599")
-		)
-		(pin "2"
-			(uuid "e83ffa93-7ad0-4b57-96b0-3bac43df4699")
-		)
-		(pin "3"
-			(uuid "110efdc1-fa48-4a58-b1a3-24d9fd3300e5")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J7")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "606a8d44-dfa8-4aa4-822a-912dfde6caa2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -5424,7 +5895,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a0252ca-7024-48e9-82e3-5ef8ed6e5c70")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 180.34 106.6799 0)
 			(effects
 				(font
@@ -5485,6 +5956,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8897d11-32b1-494f-af79-35eb6497e262")
 		)
@@ -5494,7 +5983,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5510,7 +5999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2e7628-1379-4bd8-bddf-e7295c830c28")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 261.62 109.22 0)
 			(effects
 				(font
@@ -5555,6 +6044,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 259.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 259.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e263f0c-1841-4b7b-89ef-0c72484b6f2b")
 		)
@@ -5564,7 +6071,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5572,16 +6079,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 66.04 180)
+		(at 111.76 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c03d802-f1c0-43a7-937e-c6cfea1854ba")
-		(property "Reference" "J4"
-			(at 49.53 64.77 0)
+		(uuid "6c56d801-9d1c-4692-b945-1e74d96b722c")
+		(property "Reference" "S21"
+			(at 113.03 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +6097,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 67.31 0)
+			(at 113.03 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +6106,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 66.04 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +6115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 66.04 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +6124,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 66.04 0)
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,18 +6151,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "0737f771-76cc-47bb-a274-8fc957d0523d")
+			(uuid "bc609cf5-2843-4d2c-8c3a-326afe107c22")
 		)
 		(pin "2"
-			(uuid "ddbdd3a2-6f23-42d8-9476-be1a37867d77")
+			(uuid "898fa0f9-756b-4bd1-848e-761595413e86")
 		)
 		(pin "3"
-			(uuid "59efad0e-cc09-4a6c-922a-4fc1e807700d")
+			(uuid "058ea912-c83a-4203-b808-62b12e5c901b")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J4")
+					(reference "S21")
 					(unit 1)
 				)
 			)
@@ -5710,6 +6235,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc95daa-6aae-48d0-8021-2a80c7ae1da5")
+		(property "Reference" "S22"
+			(at 113.03 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00acc156-b9a5-4981-ad49-891ef7bc74b6")
+		)
+		(pin "2"
+			(uuid "570b5718-b813-4e79-ab6e-676d8c8dc984")
+		)
+		(pin "3"
+			(uuid "4134cbe6-39d5-427e-82fc-975dc8ef07dc")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 99.06 172.72 0)
 		(unit 1)
@@ -5719,7 +6335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700a73f4-0cec-435b-86c0-008661f258cb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -5769,80 +6385,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 154.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c86cc44-40e0-422b-9229-1475b4e06f3f")
-		(property "Reference" "J23"
-			(at 113.03 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e3127aa-e624-4894-b651-f6e0c047031e")
-		)
-		(pin "2"
-			(uuid "bf856754-610c-443f-abed-2742c7ac3346")
-		)
-		(pin "3"
-			(uuid "6c63dc81-9a4a-4dae-be15-280284b71d64")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J23")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5857,9 +6400,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81a8d359-18c2-44aa-9a21-55a26b7dc1f5")
-		(property "Reference" "J17"
-			(at 113.03 77.47 0)
+		(uuid "74a1e662-8a82-489c-8583-6767a8c0313a")
+		(property "Reference" "S17"
+			(at 113.03 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6411,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 80.01 0)
+			(at 113.03 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,19 +6446,219 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "230fb456-e92e-4bd6-92a6-627e39434d92")
+			(uuid "b0300317-eb84-4a28-95fe-40ac707260da")
 		)
 		(pin "2"
-			(uuid "b885457c-e6ce-4633-8768-46b1f78ac7ee")
+			(uuid "bd77e009-cb41-4f12-83ee-b9dccbae2df8")
 		)
 		(pin "3"
-			(uuid "3253d53c-90f1-461e-b274-f49264b94676")
+			(uuid "88b97d8c-d8a1-48d3-9490-879ca33a761e")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J17")
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ae1aae-0465-421c-9fd8-90a7948813b9")
+		(property "Reference" "S12"
+			(at 49.53 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87b3336d-07c9-46d9-a69c-29e2bdf6023b")
+		)
+		(pin "2"
+			(uuid "04cc8691-fd17-4d83-9ce9-4f4ea534c700")
+		)
+		(pin "3"
+			(uuid "5a2c4468-701b-433d-b568-1084d455c055")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c29e22e-dde7-40f4-a9e0-6a1cbb2e16d0")
+		(property "Reference" "S6"
+			(at 49.53 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5660cbc-11c7-4e32-baf3-d016b508ce06")
+		)
+		(pin "2"
+			(uuid "0aaf8c22-c943-4f64-b558-07c73f462793")
+		)
+		(pin "3"
+			(uuid "b8d6a61a-2297-47b7-ab53-ee015afa9a7e")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -5930,9 +6673,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83da9ecb-b915-40af-b239-9bf140651b6e")
-		(property "Reference" "J2"
-			(at 49.53 39.37 0)
+		(uuid "8cf5ba5c-b752-47d3-86fe-ca17469a3b08")
+		(property "Reference" "S2"
+			(at 49.53 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6684,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 41.91 0)
+			(at 49.53 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,54 +6719,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "128b5265-c728-4956-83ae-58298a200573")
-		)
-		(pin "2"
-			(uuid "f6095f3e-c067-4fec-9b2d-44922d5ce5fb")
-		)
-		(pin "3"
-			(uuid "4633e347-f231-4c74-8357-de6eb03e6e5a")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bb6169-f128-4ee7-bcda-8d4edba5bd0b")
-		(property "Reference" "J13"
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 27.94 0)
+		(property "AKI_CODE" ""
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,17 +6728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 111.76 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 27.94 0)
+		(property "AKI_URL" ""
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,18 +6738,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "dca8fb87-9877-446c-be42-47b0080bdab0")
+			(uuid "e21a93f9-2510-4366-bf14-f49265ec04a9")
 		)
 		(pin "2"
-			(uuid "9a0374b4-d922-4c81-8c68-a9900ef174f7")
+			(uuid "0cd6fd5b-7a26-4c01-a95a-538c424eab55")
 		)
 		(pin "3"
-			(uuid "6f98ffb9-4b4d-4024-b0ad-33ec4fd326f2")
+			(uuid "77cfea29-5108-4ffb-ac2c-4a7d3afcf690")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J13")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6093,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_W4.0mm_Horizontal_FlatSideDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 188.595 53.34 0)
 			(effects
 				(font
@@ -6123,6 +6811,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 190.5 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 190.5 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0360af05-3b48-4dfa-9d06-219902fe6302")
 		)
@@ -6136,79 +6842,6 @@
 			(project ""
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f839019-7a92-4fcf-b5ca-e63842f4e583")
-		(property "Reference" "J3"
-			(at 49.53 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "444c782e-7c5f-431d-a103-0eadb36913dd")
-		)
-		(pin "2"
-			(uuid "a35290df-a899-4b6d-a9d7-19b479dbe6d3")
-		)
-		(pin "3"
-			(uuid "e64ff3ee-8d99-4a64-ac54-475d88497afd")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6240,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_W4.0mm_Horizontal_FlatSideDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 188.595 116.84 0)
 			(effects
 				(font
@@ -6270,6 +6903,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 190.5 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 190.5 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65d4e10a-090f-4c8e-b66b-ce99b0288233")
 		)
@@ -6290,16 +6941,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 116.84 180)
+		(at 48.26 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d36d1be-41b4-43b3-9235-92772ac5b35f")
-		(property "Reference" "J20"
-			(at 113.03 115.57 0)
+		(uuid "ad0f38e2-5c0f-4612-99b9-13daf4c49a54")
+		(property "Reference" "S5"
+			(at 49.53 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6959,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 118.11 0)
+			(at 49.53 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6968,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 116.84 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 116.84 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6986,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 116.84 0)
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,18 +7013,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "aec91638-66cc-4df8-8955-171894a6407b")
+			(uuid "1a0d38bb-174c-41e3-ad96-06d360fc9d2e")
 		)
 		(pin "2"
-			(uuid "a0c9a9da-3dc8-4f90-b650-1b31e6dcb4a0")
+			(uuid "e3d41d06-399f-4b46-ab54-1eb0673ff89b")
 		)
 		(pin "3"
-			(uuid "7726d3ce-d34e-402a-92ae-1f305061a5de")
+			(uuid "38beb71b-3644-4ddc-9289-e0f2bb69c623")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J20")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -6371,7 +7040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad23be0b-1d98-4586-bdf5-06df3adbe60c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 224.4441 43.18 0)
 			(effects
 				(font
@@ -6416,6 +7085,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "703bd327-65d6-42a1-80e9-e430a43114f6")
 		)
@@ -6443,7 +7130,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6459,7 +7146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0372fe3-2082-43e3-a675-0d2673d7be6e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 203.2 39.37 0)
 			(effects
 				(font
@@ -6509,7 +7196,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6517,16 +7204,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 91.44 180)
+		(at 48.26 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9fc8ef7-3b40-4e0b-9bc9-5619e356b7c1")
-		(property "Reference" "J6"
-			(at 49.53 90.17 0)
+		(uuid "c17ba4ad-e89e-4d74-8449-19070e7e9b81")
+		(property "Reference" "S9"
+			(at 49.53 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +7222,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 92.71 0)
+			(at 49.53 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 91.44 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 91.44 0)
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +7249,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 91.44 0)
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,18 +7276,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "bacdf787-77e8-4c7b-b567-8472e01dab2f")
+			(uuid "3c11dd76-7ac2-4bdc-bfd3-89396a3fb9bd")
 		)
 		(pin "2"
-			(uuid "ccf12500-efc1-449a-be7e-e8e4bf63b968")
+			(uuid "9d9e0c54-350a-4e7f-899c-db96cf47b76b")
 		)
 		(pin "3"
-			(uuid "e5d5d5fb-e55d-4b93-9221-556370593e8a")
+			(uuid "f4aa10cd-0699-4929-b8e7-f00c9a967960")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J6")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -6598,7 +7303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2ad0f3-ddd3-4e8d-bdad-98cb9de73236")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 243.84 68.5799 0)
 			(effects
 				(font
@@ -6643,6 +7348,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42e09d56-1d43-48f7-9758-530d9d6bada8")
 		)
@@ -6652,7 +7375,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6660,16 +7383,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 167.64 180)
+		(at 48.26 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cec1a28b-4ee6-4a18-a1ae-c5b4dd1b4c17")
-		(property "Reference" "J12"
-			(at 49.53 166.37 0)
+		(uuid "cfbffb48-876a-4f9d-b825-b52aabbf1456")
+		(property "Reference" "S8"
+			(at 49.53 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +7401,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 168.91 0)
+			(at 49.53 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +7410,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 167.64 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +7419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 167.64 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +7428,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 167.64 0)
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,91 +7455,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9ddf627-49ec-4f40-bbca-fcac52ee6ed2")
+			(uuid "c320e076-246f-4ddb-aae1-6778afc05b8d")
 		)
 		(pin "2"
-			(uuid "7db3b2c0-82c9-4cc8-b348-7b1c97a29e08")
+			(uuid "2c4cee23-66ad-4bd8-b6b0-ea62f7f9d232")
 		)
 		(pin "3"
-			(uuid "a19ba7b3-ba9f-4cb9-aa48-137d41e25c9e")
+			(uuid "61f5b1af-0ab4-4c7b-8198-d7a6350f7d4e")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2440425-aff2-47c3-83a8-635352493a41")
-		(property "Reference" "J10"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "803069a4-2e60-4186-9b03-c194c29b7999")
-		)
-		(pin "2"
-			(uuid "da50c3a0-9e3c-4939-ae4a-f46b6eef9e24")
-		)
-		(pin "3"
-			(uuid "daf804e5-9764-48e4-89a2-38c84ef92a4a")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J10")
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -6814,7 +7482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59f45d9-baee-47bc-bce4-476fde70dc1e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -6864,7 +7532,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6880,7 +7548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d751a412-02b0-4cac-ae51-3a3c35feca6a")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 205.74 106.6799 0)
 			(effects
 				(font
@@ -6925,6 +7593,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6239afce-a58c-4b0f-8152-09cdde6fdfb7")
 		)
@@ -6934,299 +7620,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7788a9a-15e0-4d4b-8918-3d2b297136c9")
-		(property "Reference" "J9"
-			(at 49.53 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a46d9032-ed32-44cf-b3ce-57aa6116163e")
-		)
-		(pin "2"
-			(uuid "6ade264d-0ea3-461d-92d6-c820aaab7820")
-		)
-		(pin "3"
-			(uuid "8c9301af-c206-421f-b13e-5c4fd4395cfd")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 48.26 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d83c4f61-2a9a-4436-806e-7aed2c83c857")
-		(property "Reference" "J8"
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 48.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9809986a-6786-4f42-9480-246a61332d27")
-		)
-		(pin "2"
-			(uuid "0664208f-d3d0-46d3-904a-81f9ac7d8548")
-		)
-		(pin "3"
-			(uuid "7324c578-1f4e-4a8b-b7f4-f2ffd778cb72")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d86b7238-f20d-4b0e-9dc4-97d30566d1dd")
-		(property "Reference" "J14"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50c3a654-bf5c-4906-8704-4fb142eff76a")
-		)
-		(pin "2"
-			(uuid "73a8f35c-bc27-466c-b715-92e29adcf31e")
-		)
-		(pin "3"
-			(uuid "13fb4aa1-9965-4ce0-88ec-f842897bb7b8")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daeb431d-a0ee-446c-822d-c37fdbe73107")
-		(property "Reference" "J24"
-			(at 113.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff1f7de9-bd84-431d-adfe-556685635a6f")
-		)
-		(pin "2"
-			(uuid "4e283b87-b7df-435c-93f2-b98939d74770")
-		)
-		(pin "3"
-			(uuid "2275aeeb-ed80-476d-9ef6-c3f611403211")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7242,8 +7636,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc86a696-c30f-4938-ae5f-255bccdc80b9")
-		(property "Reference" "J1"
-			(at 49.53 26.67 0)
+		(property "Reference" "S1"
+			(at 49.53 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7646,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 49.53 29.21 0)
+			(at 49.53 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,6 +7673,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
 			(at 48.26 27.94 0)
 			(effects
 				(font
@@ -7299,7 +7711,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -7307,16 +7719,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 142.24 180)
+		(at 111.76 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e237fa8d-e4d2-4966-a4f2-7180f5b6070c")
-		(property "Reference" "J22"
-			(at 113.03 140.97 0)
+		(uuid "dcddb69c-f3e4-408e-8afb-311ab87480f3")
+		(property "Reference" "S24"
+			(at 113.03 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7737,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 143.51 0)
+			(at 113.03 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7746,7 @@
 			)
 		)
 		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 142.24 0)
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,7 +7755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 142.24 0)
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7764,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 142.24 0)
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,18 +7791,109 @@
 			)
 		)
 		(pin "1"
-			(uuid "de88752e-7cb8-46a9-96fa-5d4d3f7a2d78")
+			(uuid "4ba36f3a-c933-44a5-b094-3c1ec8916667")
 		)
 		(pin "2"
-			(uuid "cdafdd6b-b276-4d65-8a4d-54b8173be187")
+			(uuid "bdf0ba16-58a4-43ee-84ec-e2fc608cfc11")
 		)
 		(pin "3"
-			(uuid "0129611b-75b0-4ab3-8c2d-b7465b6d37d5")
+			(uuid "901e6310-06d2-4618-8149-1adcc59b983c")
 		)
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J22")
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de861008-ad3c-42a1-8cd6-ecc3256e23bc")
+		(property "Reference" "S10"
+			(at 49.53 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c519101c-d819-489a-94c9-a91cf1509ed7")
+		)
+		(pin "2"
+			(uuid "5430ea86-ac40-40cc-91bd-fdaade9ef2c0")
+		)
+		(pin "3"
+			(uuid "5b709611-8c12-4510-a0a4-2e9da52c9418")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -7454,7 +7975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e58021f5-3a1e-4d6e-bb99-42b24ecdd042")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -7504,80 +8025,7 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 111.76 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7e3a4b7-89bb-431a-9ffe-282b88176ae8")
-		(property "Reference" "J19"
-			(at 113.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 113.03 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37d1d0c1-de81-4807-b63f-27d73914c2c6")
-		)
-		(pin "2"
-			(uuid "27d39968-050d-41af-be7e-55f71c5eafd1")
-		)
-		(pin "3"
-			(uuid "3cae9396-1bdf-41c8-a4d5-8fecbe051b92")
-		)
-		(instances
-			(project "HRU-SCB-RP2040"
-				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "J19")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7593,7 +8041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f51c7a-eab8-485a-83e9-51091c8bcf36")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 224.4441 106.68 0)
 			(effects
 				(font
@@ -7638,6 +8086,24 @@
 				(hide yes)
 			)
 		)
+		(property "AKI_CODE" ""
+			(at 222.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 222.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed6246ed-9c12-4c33-b27c-b9a2e26fc7c8")
 		)
@@ -7665,7 +8131,189 @@
 		(instances
 			(project "HRU-SCB-RP2040"
 				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
-					(reference "U3")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 48.26 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee898a33-7aa5-43d3-82d5-8db5dfb1057c")
+		(property "Reference" "S11"
+			(at 49.53 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 49.53 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a170cf99-6600-4eeb-a0fa-820950ba6ddc")
+		)
+		(pin "2"
+			(uuid "c050ac10-e1be-4e45-8ece-19b6d7de2344")
+		)
+		(pin "3"
+			(uuid "164b0672-66b8-4469-8df6-960d88e42053")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 111.76 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa32e7f4-0fda-47d5-9f3b-2161c91ca069")
+		(property "Reference" "S13"
+			(at 113.03 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 113.03 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mymod:PinHeader_1x03_P2.54mm_Vertical_SmallCourtyard"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_CODE" ""
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AKI_URL" ""
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf70ff44-5c6e-4043-bf1d-1bac7a4e38dd")
+		)
+		(pin "2"
+			(uuid "3c993762-ff1d-4959-a45a-2b879cf13c62")
+		)
+		(pin "3"
+			(uuid "984afd09-22c9-4d5d-b561-13cf04dd81c3")
+		)
+		(instances
+			(project "HRU-SCB-RP2040"
+				(path "/22d57d1f-fa00-4148-a62a-8eb596ebbd21/0cbf7606-be01-4f49-97dc-43c83a99d446"
+					(reference "S13")
 					(unit 1)
 				)
 			)
