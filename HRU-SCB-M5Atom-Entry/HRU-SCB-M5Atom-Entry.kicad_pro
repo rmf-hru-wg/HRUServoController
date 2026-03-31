@@ -676,6 +676,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -692,6 +700,14 @@
     [
       "56216325-2a58-40c9-a809-07bdf27f80f9",
       "Root"
+    ],
+    [
+      "4701dd91-95c0-4455-99e5-c388f97721e9",
+      "ServoSerial0"
+    ],
+    [
+      "4ca68995-2265-4936-937b-5e55e41587a0",
+      "ServoSerial1"
     ]
   ],
   "text_variables": {}
